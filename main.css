@@ -1,0 +1,85 @@
+body {
+    padding-top: 70px; 
+}
+body p {
+    font-size: 20px;
+}
+
+/*** navigation bar style ***/
+
+/*** body ***/
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Satisfy, sans-serif;
+}
+hr {
+    border-color: rgba(0,0,0,0.5);
+    border-width: 3px;
+}
+.btn {
+    background-color: transparent;
+    color: black;
+    font-size: 15px;
+    border-color: rgba(0,0,0,0.5);
+    border-width: 2px;
+}
+.btn:hover {
+    background-color: #000;
+}
+
+/*** navbar ***/
+.navbar-inverse {
+    background-color: white;
+    letter-spacing: 2px;
+    border-color: rgba(0,0,0,0.5);
+    border-bottom-width: 2px;
+    font-family: Satisfy, cursive;
+}
+.navbar-inverse .navbar-brand {
+    font-size: 30px;
+}
+.navbar-inverse .navbar-nav>li>a{
+    font-size: 20px;
+    color: #000;
+}
+.navbar-inverse .navbar-brand:hover{
+    background-color: #000;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    background-color: #000;
+}
+
+/*** header ***/
+.simple-feature {
+    margin-top: 50px;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    background-color: transparent;
+}
+.simple-feature h1 {
+    font-family: Satisfy, sans-serif;
+}
+
+.pic-feature {
+    margin-bottom: 30px;
+}
+
+/*** about ***/
+#about, #services, #contact {
+    padding: 60px;
+}
+.about-description {
+    padding: 30px;
+}
+.about-description h1 {
+    text-align: center;
+    padding: 10px;
+}
+.about-description p {
+    text-align: center;
+    padding: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
